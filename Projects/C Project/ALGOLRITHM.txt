@@ -1,0 +1,987 @@
+STEP 1 :- START
+STEP 2 :- Declaration of variable 
+          NAME :- options_selection
+          DATA TYPE :- int
+
+STEP 3 :- Declaration of variable
+          NAME :- num
+          DATA TYPE :- int
+
+STEP 4 :- Declaration of variable
+          NAME :- num_2
+          DATA TYPE :- int
+
+STEP 5 :- Declaration of variable
+          NAME :- input_num_1
+          DATA TYPE :- int
+
+STEP 6 :- Declaration and intialization of variable 
+          NAME :- the_end_with_default
+          DATA TYPE :- int
+          VALUE :- 0
+
+STEP 7 :- Declaration of array
+          ARRAY DATA TYPE :- char
+          ARRAY NAME :- STR_IN_1
+          ARRAY SIZE :- 1000
+
+STEP 8 :- Declaration of array
+          ARRAY DATA TYPE :- char
+          ARRAY NAME :- STR_IN_2
+          ARRAY SIZE :- 1000
+
+STEP 9 :- Declaration of array
+          ARRAY DATA TYPE :- char
+          ARRAY NAME :- STR_OUT_1
+          ARRAY SIZE :- 1000
+
+STEP 10 :- Declaration of array
+          ARRAY DATA TYPE :- char
+          ARRAY NAME :- STR_OUT_2
+          ARRAY SIZE :- 1000
+
+STEP 11 :- Declaration of array
+          ARRAY DATA TYPE :- char
+          ARRAY NAME :- temprorary_string
+          ARRAY SIZE :- 1000
+
+STEP 12 :- Declaration and intialization of array
+          ARRAY DATA TYPE :- char
+          ARRAY NAME :- option
+          ARRAY SIZE :- 80                
+	  VALUE :- \n\nYou Have Choosen
+
+STEP 13 :- Declaration and intialization of array
+          ARRAY DATA TYPE :- char
+          ARRAY NAME :- option_1
+          ARRAY SIZE :- 80                
+	  VALUE :- Calculate the length of string
+
+STEP 14 :- Declaration and intialization of array
+          ARRAY DATA TYPE :- char
+          ARRAY NAME :- option_2
+          ARRAY SIZE :- 80                
+	  VALUE :- Calculate the length of string [with max length function]
+
+STEP 15 :- Declaration and intialization of array
+          ARRAY DATA TYPE :- char
+          ARRAY NAME :- option_3
+          ARRAY SIZE :- 80                
+	  VALUE :- Copy a string to another string
+
+STEP 16 :- Declaration and intialization of array
+          ARRAY DATA TYPE :- char
+          ARRAY NAME :- option_4
+          ARRAY SIZE :- 80                
+	  VALUE :- Copy a number (custom number limit or range) string to another string
+
+STEP 17 :- Declaration and intialization of array
+          ARRAY DATA TYPE :- char
+          ARRAY NAME :- option_5
+          ARRAY SIZE :- 80                
+	  VALUE :- Concatenate (joins) two strings
+
+
+STEP 18 :- Declaration and intialization of array
+          ARRAY DATA TYPE :- char
+          ARRAY NAME :- option_6
+          ARRAY SIZE :- 80                
+	  VALUE :- Concatenate number(custom number limit or range) two strings
+
+
+STEP 19 :- Declaration and intialization of array
+          ARRAY DATA TYPE :- char
+          ARRAY NAME :- option_7
+          ARRAY SIZE :- 80                
+	  VALUE :- Compare two string [CASE SENSITIVE]
+
+
+STEP 20 :- Declaration and intialization of array
+          ARRAY DATA TYPE :- char
+          ARRAY NAME :- option_8
+          ARRAY SIZE :- 80                
+	  VALUE :- Compare two string [WITHOUT CASE SENSITIVE]
+
+
+STEP 21 :- Declaration and intialization of array
+          ARRAY DATA TYPE :- char
+          ARRAY NAME :- option_9
+          ARRAY SIZE :- 80                
+	  VALUE :- Convert string to lowercase
+
+
+STEP 22 :- Declaration and intialization of array
+          ARRAY DATA TYPE :- char
+          ARRAY NAME :- option_10
+          ARRAY SIZE :- 80                
+	  VALUE :- Convert string to uppercase
+
+
+
+STEP 23 :- Declaration and intialization of array
+          ARRAY DATA TYPE :- char
+          ARRAY NAME :- option_11
+          ARRAY SIZE :- 80                
+	  VALUE :- Reverse a string
+
+STEP 24 :- Declaration and intialization of array
+          ARRAY DATA TYPE :- char
+          ARRAY NAME :- option_12
+          ARRAY SIZE :- 80                
+	  VALUE :- Find if the string is Palindrome or not
+
+STEP 25 :- Declaration and intialization of array
+          ARRAY DATA TYPE :- char
+          ARRAY NAME :- option_13
+          ARRAY SIZE :- 80                
+	  VALUE :- Print string number of times on console
+
+STEP 26 :- Declaration and intialization of array
+          ARRAY DATA TYPE :- char
+          ARRAY NAME :- option_14
+          ARRAY SIZE :- 80                
+	  VALUE :- String Swapping
+
+STEP 27 :- Declaration and intialization of array
+          ARRAY DATA TYPE :- char
+          ARRAY NAME :- option_15
+          ARRAY SIZE :- 80                
+	  VALUE :- Print each string characters one by one
+
+STEP 28 :- Declaration and intialization of array
+          ARRAY DATA TYPE :- char
+          ARRAY NAME :- option_16
+          ARRAY SIZE :- 80                
+	  VALUE :- Find vowel(s) from string one by one
+
+STEP 29 :- Declaration and intialization of array
+          ARRAY DATA TYPE :- char
+          ARRAY NAME :- option_17
+          ARRAY SIZE :- 80                
+	  VALUE :- Find consonant(s) from string one by one
+
+STEP 30 :- Declaration and intialization of array
+          ARRAY DATA TYPE :- char
+          ARRAY NAME :- option_18
+          ARRAY SIZE :- 80                
+	  VALUE :- Print each string character(s) one by one with vowel(s) and consonant(s) status
+
+STEP 31 :- Declaration and intialization of array
+          ARRAY DATA TYPE :- char
+          ARRAY NAME :- option_19
+          ARRAY SIZE :- 80                
+	  VALUE :- Find number of vowel(s) from string only
+
+STEP 32 :- Declaration and intialization of array
+          ARRAY DATA TYPE :- char
+          ARRAY NAME :- option_20
+          ARRAY SIZE :- 80                
+	  VALUE :- Find number of consonant(s) from string only
+
+STEP 33 :- Declaration and intialization of array
+          ARRAY DATA TYPE :- char
+          ARRAY NAME :- seperator_1
+          ARRAY SIZE :- 500                
+	  VALUE :- ......................................................................................
+
+STEP 34 :- Declaration and intialization of array
+          ARRAY DATA TYPE :- char
+          ARRAY NAME :- seperator_2
+          ARRAY SIZE :- 500                
+	  VALUE :- **************************************************************************************
+
+STEP 35 :- Declaration and intialization of array
+          ARRAY DATA TYPE :- char
+          ARRAY NAME :- seperator_3
+          ARRAY SIZE :- 500                
+	  VALUE :- ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+STEP 36 :- Declaration and intialization of array
+          ARRAY DATA TYPE :- char
+          ARRAY NAME :- seperator_4
+          ARRAY SIZE :- 500                
+	  VALUE :- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+STEP 37 :- Declaration and intialization of array
+          ARRAY DATA TYPE :- char
+          ARRAY NAME :- seperator_5
+          ARRAY SIZE :- 500                
+	  VALUE :- //////////////////////////////////////////////////////////////////////////////////////
+
+STEP 38 :- Declaration and intialization of array
+          ARRAY DATA TYPE :- char
+          ARRAY NAME :- seperator_6
+          ARRAY SIZE :- 500                
+	  VALUE :- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+STEP 39 :- Declaration and intialization of array
+          ARRAY DATA TYPE :- char
+          ARRAY NAME :- seperator_7
+          ARRAY SIZE :- 500                
+	  VALUE :- ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+STEP 40 :- Declaration and intialization of array
+          ARRAY DATA TYPE :- char
+          ARRAY NAME :- seperator_8
+          ARRAY SIZE :- 500                
+	  VALUE :- ______________________________________________________________________________________
+
+
+STEP 41 :- Display - "                                Programming in 'C'\n\n" on console screen.
+
+STEP 42 :- Display - "                                  Microproject\n" on console screen.
+
+STEP 43 :- Display - "                                String Functions\n" on console screen.
+
+STEP 44 :- Display - "             <<<<<<<<<<<-----------  20 in 1  ----------->>>>>>>>>>>\n" on console screen.
+
+STEP 45 :- Display - "%s\n\n" on console screen.
+           [ 1. <%s> - "seperator_7" ]
+
+STEP 46 :- Display - "1.  %s\n2.  %s\n3.  %s\n4.  %s\n5.  %s\n" on console screen.
+           [ 1. <%s> - "option_1" ]          
+           [ 2. <%s> - "option_2" ]
+           [ 3. <%s> - "option_3" ]
+           [ 4. <%s> - "option_4" ]
+           [ 5. <%s> - "option_5" ]
+
+STEP 47 :- Display - "6.  %s\n7.  %s\n8.  %s\n9.  %s\n10. %s\n" on console screen.
+           [ 1. <%s> - "option_6" ]          
+           [ 2. <%s> - "option_7" ]
+           [ 3. <%s> - "option_8" ]
+           [ 4. <%s> - "option_9" ]
+           [ 5. <%s> - "option_10" ]
+
+STEP 48 :- Display - "11. %s\n12. %s\n13. %s\n14. %s\n15. %s\n" on console screen.
+           [ 1. <%s> - "option_11" ]          
+           [ 2. <%s> - "option_12" ]
+           [ 3. <%s> - "option_13" ]
+           [ 4. <%s> - "option_14" ]
+           [ 5. <%s> - "option_15" ]
+
+STEP 49 :- Display - "16. %s\n17. %s\n18. %s\n19. %s\n20. %s\n" on console screen.
+           [ 1. <%s> - "option_16" ]          
+           [ 2. <%s> - "option_17" ]
+           [ 3. <%s> - "option_18" ]
+           [ 4. <%s> - "option_19" ]
+           [ 5. <%s> - "option_20" ]
+
+STEP 50 :- Display - "%s\n%s\n" on console screen.
+           [ 1. <%s> - "seperator_1" ]          
+           [ 2. <%s> - "seperator_2" ]
+
+STEP 51 :- Display - "CHOOSE FROM THE FOLLOWING OPTIONS [1-20]:- " on console screen.
+
+STEP 52 :- Take input from user and assign it to "options_selection".
+    
+STEP 53 :- CLEAR CONSOLE SCREEN
+
+STEP 54 :- Display - "%s %d" on console screen.
+           [ 1. <%s> - "option" ]          
+           [ 2. <%d> - "options_selection" ]    
+
+STEP 55 :- STARTING SWITCH
+
+
+
+
+
+
+
+SWITCH CASE 1
+
+STEP 56 :- Display - "\n\n>>> %s <<< \n \n" on console screen.
+           [ 1. <%s> - "option_1" ]
+
+STEP 57 :- Display - "Enter the String :- " on console screen.
+
+STEP 58 :- Take input from user and assign it to "STR_IN_1".
+
+STEP 59 :- Display - " \n \nLength of given string [  %s  ]: %d \n \n" on console screen.
+           [ 1. <%s> - "STR_IN_1" ]
+           [ 2. <%d> - LENGTH OF (by strlen function) - "option_1" ] 
+
+STEP 60 :- END OF THE SWITCH CASE 1 with BREAK.
+
+
+
+
+
+
+
+SWITCH CASE 2
+		
+STEP 61 :- Display - "\n\n>>> %s <<< \n \n" on console screen.
+           [ 1. <%s> - "STR_IN_1" ],option_2);
+STEP 62 :- Display - "Enter the String :- " on console screen.
+
+STEP 63 :- Take input from user and assign it to "STR_IN_1".
+
+STEP 64 :- Display - "Enter the MAX Length :- " on console screen.
+
+STEP 65 :- Take input from user and assign it to "input_num_1".
+
+STEP 66 :- Display - " \n \nLength of given string [  %s  ]: %d \n \n" on console screen.
+           [ 1. <%s> - "STR_IN_1" ]
+           [ 2. <%d> - LENGTH OF (by strnlen function) - "option_1" with maximum value of "input_num_1" ] 
+
+STEP 67 :- END OF THE SWITCH CASE 2 with BREAK.
+		
+		
+
+
+
+
+SWITCH CASE  3:
+
+STEP 68 :- Display - "\n\n>>> %s <<< \n \n" on console screen.
+           [ 1. <%s> - "option_3" ]
+
+STEP 69 :- Display - "Enter the String [A] :- " on console screen.
+
+STEP 70 :- Take input from user and assign it to "STR_IN_1".
+
+STEP 71 :- Copy (with strcpy function) of "STR_IN_1" to "STR_OUT_1".
+
+STEP 72 :- Display - "Value of String [A] :- %s \nValue of String [B] :- %s " on console screen.
+           [ 1. <%s> - "STR_IN_1" ]
+           [ 1. <%s> - "STR_OUT_1" ]			
+
+STEP 73 :- END OF THE SWITCH CASE 00 with BREAK.
+		
+		
+
+
+
+SWITCH CASE  4:
+
+STEP 74 :- Display - "\n\n>>> %s <<< \n \n" on console screen.
+           [ 1. <%s> - "option_4" ]
+
+STEP 75 :- Display - "Enter the String [A] :- " on console screen.
+ 
+STEP 76 :- Take input from user and assign it to "STR_IN_1"
+
+STEP 77 :- Display - "Enter number of character you want from String [A] :- " on console screen.
+
+STEP 78 :- Take input from user and assign it to "input_num_1"
+
+STEP 79 :- Copy (with strncpy function) of "STR_IN_1" to "STR_OUT_1" with starting "input_num_1" characters of "STR_IN_1" 
+
+STEP 80 :- Display - "Value of String [A] :- %s \nValue of String [B] :- %s " on console screen.
+           [ 1. <%s> - "STR_IN_1" ]
+           [ 1. <%s> - "STR_OUT_1" ]			
+
+STEP 81 :- END OF THE SWITCH CASE 4 with BREAK.
+		
+		
+
+
+SWITCH CASE  5:
+
+STEP 82 :-  Display - "\n\n>>> %s <<< \n \n" on console screen.
+             [ 1. <%s> - "option_5" ]
+
+STEP 83 :- Display - "Enter the String [A] :- " on console screen.
+
+STEP 84 :- Take input from user and assign it to "STR_IN_1"
+
+STEP 85 :- Display - "Enter the String [B] :- " on console screen.
+
+STEP 86 :- Take input from user and assign it to "STR_IN_2"
+
+STEP 87 :- Joining (with strcat function) of "STR_IN_2" to "STR_IN_1".
+
+STEP 88 :- Copy (with strcpy function) of "STR_IN_1" to "STR_OUT_1".
+			
+STEP 89 :- Display - "String [C] :- %s" on console screen.
+           [ 1. <%s> - "STR_OUT_1" ]
+		
+STEP 90 :- END OF THE SWITCH CASE 5 with BREAK.
+		
+		
+
+
+
+SWITCH CASE  6:
+
+STEP 91 :-  Display - "\n\n>>> %s <<< \n \n" on console screen.
+           [ 1. <%s> - "option_6" ]
+
+STEP 92 :- Display - "Enter the String [A] :- " on console screen.
+     
+STEP 93 :- Take input from user and assign it to "STR_IN_1"
+			
+STEP 94 :- Display - "Enter the String [B] :- " on console screen.
+     			
+STEP 95 :- Take input from user and assign it to "STR_IN_2"
+			
+STEP 96 :- Display - "Enter number of character you want from String [B] :- " on console screen.
+    
+STEP 97 :- Take input from user and assign it to "input_num_1"
+
+STEP 98 :- Joining (with strcat function) of "STR_IN_2" to "STR_IN_1"
+			
+STEP 99 :- Copy (with strcpy function) of "STR_IN_1" to "STR_OUT_1".
+
+STEP 100 :- Display - "String [C] :- %s" on console screen.
+           [ 1. <%s> - "STR_OUT_1" ]
+
+STEP 101 :- END OF THE SWITCH CASE 6 with BREAK.
+		
+		
+
+
+SWITCH CASE  7:
+
+STEP 102 :-  Display - "\n\n>>> %s <<< \n \n" on console screen.
+           [ 1. <%s> - "option_7" ]
+
+STEP 103 :- Display - "Enter the String [A] :- " on console screen.
+
+STEP 104 :- Take input from user and assign it to "STR_IN_1"
+
+STEP 105 :- Display - "Enter the String [B] :- " on console screen.
+			
+STEP 106 :- Take input from user and assign it to "STR_IN_2"
+			
+STEP 107 :- "if" condition :-
+            CONDITION :- (strcmp(STR_IN_1,STR_IN_2) ==0)
+                        
+STEP 108 :- << TRUE >> Display - "String [A] and String [B] are equal" on console screen.
+
+STEP 109 :- << FALSE >> Display - "String [A] and String [B] are different" on console screen.
+			
+STEP 110 :- END OF THE SWITCH CASE 7 with BREAK.
+		
+		
+
+
+
+
+SWITCH CASE  8:
+
+STEP 111 :-  Display - "\n\n>>> %s <<< \n \n" on console screen.
+           [ 1. <%s> - "option_8" ]
+
+STEP 112 :- Display - "Enter the String [A] :- " on console screen.
+
+STEP 113 :- Take input from user and assign it to "STR_IN_1"
+
+STEP 114 :- Display - "Enter the String [B] :- " on console screen.
+			
+STEP 115 :- Take input from user and assign it to "STR_IN_2"
+			
+STEP 116 :- "if" condition :-
+            CONDITION :- (strcmpi(STR_IN_1,STR_IN_2) ==0)
+                        
+STEP 117 :- << TRUE >> Display - "String [A] and String [B] are equal" on console screen.
+
+STEP 118 :- << FALSE >> Display - "String [A] and String [B] are different" on console screen.
+		
+STEP 119 :- END OF THE SWITCH CASE 00 with BREAK.
+		
+		
+
+
+
+SWITCH CASE  9:
+
+STEP 120 :-  Display - "\n\n>>> %s <<< \n \n" on console screen.
+           [ 1. <%s> - "option_9" ]
+
+STEP 121 :- Display - "Enter the String :- " on console screen.
+
+STEP 122 :- Take input from user and assign it to "STR_IN_1"
+			
+STEP 123 :- Replacing all characters of "STR_IN_1" to lower case (with strlwr)
+
+STEP 124 :- Copy (with strcpy function) of "STR_IN_1" to "STR_OUT_1".
+
+STEP 125 :- Display - "Lower Cased String :- %s" on console screen.
+           [ 1. <%s> - "STR_OUT_1" ]
+
+STEP 126 :- END OF THE SWITCH CASE 9 with BREAK.
+		
+
+
+SWITCH CASE  10:
+
+STEP 127 :-  Display - "\n\n>>> %s <<< \n \n" on console screen.
+           [ 1. <%s> - "option_10" ]
+
+STEP 128 :- Display - "Enter the String :- " on console screen.
+       
+STEP 129 :- Take input from user and assign it to "STR_IN_1"
+
+STEP 130 :- Replacing all characters of "STR_IN_1" to upper case (with strupr)
+
+STEP 131 :- Copy (with strcpy function) of "STR_IN_1" to "STR_OUT_1".
+
+STEP 132 :- Display - "Lower Cased String :- %s" on console screen.
+           [ 1. <%s> - "STR_OUT_1" ]
+
+STEP 133 :- END OF THE SWITCH CASE 10 with BREAK.
+
+		
+
+
+
+SWITCH CASE  11:
+	
+STEP 134 :-  Display - "\n\n>>> %s <<< \n \n" on console screen.
+           [ 1. <%s> - "option_11" ]
+
+STEP 135 :- Display - "Enter the String :- " on console screen.
+
+STEP 136 :- Take input from user and assign it to "STR_IN_1"
+			
+STEP 137 :- Reverse String (with strrev) - "STR_IN_1"
+
+STEP 138 :- Copy (with strcpy function) of "STR_IN_1" to "STR_OUT_1".
+			
+STEP 139 :- Display - "Reversed String :- %s" on console screen.
+           [ 1. <%s> - "STR_OUT_1" ]
+		
+		
+STEP 140 :- END OF THE SWITCH CASE 11 with BREAK.
+
+
+
+
+		
+SWITCH CASE  12:
+
+STEP 141 :-  Display - "\n\n>>> %s <<< \n \n" on console screen.
+           [ 1. <%s> - "option_12" ]
+
+STEP 142 :- Display - "Enter the String :- " on console screen.
+           
+STEP 143 :- Take input from user and assign it to "STR_IN_1"
+
+STEP 144 :- Copy (with strcpy function) of "STR_IN_1" to "STR_IN_2".
+
+STEP 145 :- Reverse String (with strrev) - "STR_IN_2"
+            
+STEP 146 :- "if" condition :-
+            CONDITION :- (strcmpi(STR_IN_1,STR_IN_2) ==0)
+                        
+STEP 147 :- << TRUE >> Display - "Entered string [ %s ] is a palindrome.\n" on console screen.
+                       [ 1. <%s> - "STR_IN_1" ]
+
+STEP 148 :- << FALSE >> Display - "Entered string [ %s ] is not a palindrome.\n" on console screen.
+                       [ 1. <%s> - "STR_IN_1" ]                        
+            
+STEP 149 :- END OF THE SWITCH CASE 12 with BREAK.
+		
+
+
+
+		
+SWITCH CASE  13:
+	
+STEP 150 :-  Display - "\n\n>>> %s <<< \n \n" on console screen.
+           [ 1. <%s> - "option_13" ]
+
+STEP 151 :- Display - "Enter the String :- " on console screen.
+ 			
+STEP 152 :- Take input from user and assign it to "STR_IN_1"
+			
+STEP 153 :- Display - "Enter number of times you want to print it :- " on console screen.
+
+STEP 154 :- Take input from user and assign it to "input_num_1"
+		
+STEP 155 :- Assigning the value of "num_2" as "0"
+
+STEP 156 :- Copy (with strcpy function) of "STR_IN_1" to "STR_OUT_1".
+
+STEP 157 :- START of "for loop" with (num=0 ; num<input_num_1 ; num=++num ) 
+		
+STEP 158 :- PRE-INCREMENT the value of "num_2"
+
+STEP 159 :- Display - "%d.)  %s\n" on console screen.
+           [ 1. <%d> - "num_2" ]
+           [ 1. <%s> - "STR_OUT_1" ] 
+
+STEP 160 :- END of "for loop" with (num=0;num<input_num_1;num=++num )
+		
+STEP 161 :- END OF THE SWITCH CASE 13 with BREAK.
+		
+		
+		
+
+
+
+SWITCH CASE  14:
+
+STEP 162 :-  Display - "\n\n>>> %s <<< \n \n" on console screen.
+           [ 1. <%s> - "option_14" ]
+
+STEP 163 :- Display - "Enter the String [A] :- " on console screen.
+
+STEP 164 :- Take input from user and assign it to "STR_IN_1"
+			
+STEP 165 :- Display - "Enter the String [B] :- " on console screen.
+          			
+STEP 166 :- Take input from user and assign it to "STR_IN_2"
+
+STEP 167 :- Copy (with strcpy function) of "STR_IN_1" to "temprorary_string".	
+			
+STEP 168 :- Copy (with strcpy function) of "STR_IN_2" to "STR_IN_1".
+			
+STEP 169 :- Copy (with strcpy function) of "temprorary_string" to "STR_OUT_1".
+
+STEP 170 :- Display - "\n\n                 After swapping the values of :- \n" on console screen.
+      
+STEP 171 :- Display - "\n                     String [A] :-  %s" on console screen.
+           [ 1. <%s> - "STR_IN_1" ]
+			
+STEP 172 :- Display - "\n                     String [B] :-  %s" on console screen.
+           [ 1. <%s> - "STR_IN_2" ] 
+
+STEP 173 :- END OF THE SWITCH CASE 14 with BREAK.
+		
+			
+
+
+		
+
+SWITCH CASE  15:
+		
+STEP 174 :-  Display - "\n\n>>> %s <<< \n \n" on console screen.
+           [ 1. <%s> - "option_15" ]
+
+STEP 175 :- Display - "Enter the String :- " on console screen.
+
+STEP 176 :- Take input from user and assign it to "STR_IN_1"
+
+STEP 177 :-Assign the value of "num_2" as "1"
+
+STEP 178 :- Display - "\n" on console screen.
+
+STEP 179 :- START of "for loop" with (num = 0; STR_IN_1[num] != '\0'; num++) 
+		
+STEP 180 :- Display - "%d  ---  %c\n" on console screen.
+           [ 1. <%d> - "num_2" ],num_2,STR_IN_1[num]);
+           [ 1. <%c> - "option_3" ]
+
+STEP 181 :- POST-INCREMENT the value of "num_2"
+
+STEP 182 :- END of "for loop" with (num = 0; STR_IN_1[num] != '\0'; num++)
+
+STEP 183 :- END OF THE SWITCH CASE 17 with BREAK.
+		
+
+
+		
+		
+SWITCH CASE  16:
+
+STEP 184 :-  Display - "\n\n>>> %s <<< \n \n" on console screen.
+           [ 1. <%s> - "option_16" ]
+
+STEP 185 :- Display - "Enter the String :- " on console screen.
+
+STEP 186 :- Take input from user and assign it to %s" on console screen.
+           [ 1. <%s> - "STR_IN_1" ]
+
+STEP 187 :-Assign the value of "num_2" as "1"
+
+STEP 188 :- Display - "\n\n\nVowel(s) :- \n\n" on console screen.
+
+STEP 189 :- START of "for loop" with (num = 0; STR_IN_1[num] != '\0'; num++) 
+		
+STEP 190 :- "if" condition :-
+            CONDITION :- "STR_IN_1[num]" equal to "a"
+                        or "STR_IN_1[num]" equal to "A"
+                        or "STR_IN_1[num]" equal to "e"
+                        or "STR_IN_1[num]" equal to "E"
+                        or "STR_IN_1[num]" equal to "i"
+                        or "STR_IN_1[num]" equal to "I"
+                        or "STR_IN_1[num]" equal to "o"
+                        or "STR_IN_1[num]" equal to "O"
+                        or "STR_IN_1[num]" equal to "u"
+                        or "STR_IN_1[num]" equal to "U"
+
+STEP 191 :- Display - "%d  ---  %c\n" on console screen.
+           [ 1. <%s> - "num_2" ]                        
+           [ 1. <%s> - "STR_IN_1[num]" ]
+
+STEP 192 :- << TRUE >> POST-INCREMENT the value of "num_2"
+
+STEP 193 :- << FALSE >> MOVE DIRECT TO STEP 194
+
+STEP 194 :- END of "for loop" with (num = 0; STR_IN_1[num] != '\0'; num++)
+		
+STEP 195 :- END OF THE SWITCH CASE 00 with BREAK.
+		
+		
+		
+SWITCH CASE  17:
+
+STEP 196 :-  Display - "\n\n>>> %s <<< \n \n" on console screen.
+           [ 1. <%s> - "option_17" ]
+
+STEP 197 :- Display - "Enter the String :- " on console screen.
+
+STEP 198 :- Take input from user and assign it to "STR_IN_1"
+
+STEP 199 :-Assign the value of "num_2" as "1"
+
+STEP 200 :- Display - "\n\n\nVowel(s) :- \n\n" on console screen.
+
+STEP 201 :- START of "for loop" with (num = 0; STR_IN_1[num] != '\0'; num++) 
+		
+STEP 202 :- "if" condition :-
+            CONDITION :- "STR_IN_1[num]" not equal to "a"
+                        and "STR_IN_1[num]" not equal to "A"
+                        and "STR_IN_1[num]" not equal to "e"
+                        and "STR_IN_1[num]" not equal to "E"
+                        and "STR_IN_1[num]" not equal to "i"
+                        and "STR_IN_1[num]" not equal to "I"
+                        and "STR_IN_1[num]" not equal to "o"
+                        and "STR_IN_1[num]" not equal to "O"
+                        and "STR_IN_1[num]" not equal to "u"
+                        and "STR_IN_1[num]" not equal to "U"
+
+STEP 203 :- Display - "%d  ---  %c\n" on console screen.
+           [ 1. <%s> - "num_2" ]                        
+           [ 1. <%s> - "STR_IN_1[num]" ]
+
+STEP 204 :- << TRUE >> POST-INCREMENT the value of "num_2"
+
+STEP 205 :- << FALSE >> MOVE DIRECT TO STEP 206
+STEP 206 :- END of "for loop" with (num = 0; STR_IN_1[num] != '\0'; num++)
+
+
+STEP 207 :- END OF THE SWITCH CASE 17 with BREAK.
+		
+		
+
+
+
+
+
+
+
+SWITCH CASE  18:
+
+STEP 208 :-  Display - "\n\n>>> %s <<< \n \n" on console screen.
+           [ 1. <%s> - "option_18" ]
+
+STEP 209 :- Display - "Enter the String :- " on console screen.
+
+STEP 210 :- Take input from user and assign it to "STR_IN_1"
+
+STEP 211 :- Assign value of "num_2" to "1"
+
+STEP 212 :- Display - "\n" on console screen.
+
+STEP 213 :- START of "for loop" with (num = 0; STR_IN_1[num] != '\0'; num++) 
+		
+STEP 214 :- Display - "%d  ---  %c  :------  " on console screen.
+            [ 1. <%d> - "num_2" ]
+            [ 1. <%c> - "STR_IN_1[num]" ]
+
+STEP 215 :- "if" condition :-
+            CONDITION :- "STR_IN_1[num]" not equal to "a"
+                        and "STR_IN_1[num]" not equal to "A"
+                        and "STR_IN_1[num]" not equal to "e"
+                        and "STR_IN_1[num]" not equal to "E"
+                        and "STR_IN_1[num]" not equal to "i"
+                        and "STR_IN_1[num]" not equal to "I"
+                        and "STR_IN_1[num]" not equal to "o"
+                        and "STR_IN_1[num]" not equal to "O"
+                        and "STR_IN_1[num]" not equal to "u"
+                        and "STR_IN_1[num]" not equal to "U"
+                        
+STEP 216 :- << TRUE >> Display - "CONSONANT\n" on console screen.
+
+STEP 217 :- << FALSE >> Display - "VOWEL\n" on console screen.
+
+STEP 218 :- PRE-INCREMENT the value of "num_2"
+
+STEP 219 :- END of "for loop" with (num = 0; STR_IN_1[num] != '\0'; num++)
+
+STEP 220 :- END OF THE SWITCH CASE 18 with BREAK.
+		
+
+
+
+
+
+		
+SWITCH CASE  19:
+
+STEP 221 :-  Display - "\n\n>>> %s <<< \n \n" on console screen.
+           [ 1. <%s> - "option_19" ]
+
+STEP 222 :- Display - "Enter the String :- " on console screen.
+
+STEP 223 :- Take input from user and assign it to "STR_IN_1" 
+
+STEP 224 :- Assign value - "0" to "num_2";
+
+STEP 225 :- Display - "\n\n\n Number of Vowel(s) in the string [ %s ] is / are  " on console screen.
+           [ 1. <%s> - "STR_IN_1" ]
+
+STEP 226 :- START of "for loop" with (num = 0; STR_IN_1[num] != '\0'; num++) 
+		
+STEP 227 :- "if" condition :-
+            CONDITION :- "STR_IN_1[num]" equal to "a"
+                        or "STR_IN_1[num]" equal to "A"
+                        or "STR_IN_1[num]" equal to "e"
+                        or "STR_IN_1[num]" equal to "E"
+                        or "STR_IN_1[num]" equal to "i"
+                        or "STR_IN_1[num]" equal to "I"
+                        or "STR_IN_1[num]" equal to "o"
+                        or "STR_IN_1[num]" equal to "O"
+                        or "STR_IN_1[num]" equal to "u"
+                        or "STR_IN_1[num]" equal to "U"
+                        
+STEP 228 :- << TRUE >> PRE-INCREMENT the value of "num_2"
+
+STEP 229 :- << FALSE >> CONTINUE FLOW FROM STEP 230
+ 
+STEP 230 :- Display - "%d" on console screen.
+           [ 1. <%d> - "num_2" ]
+
+STEP 231 :- END of "for loop" with (num = 0; STR_IN_1[num] != '\0'; num++)
+	    
+STEP 232 :- END OF THE SWITCH CASE 19 with BREAK.
+		
+
+ 
+
+
+		
+		
+SWITCH CASE  20:
+
+STEP 233 :-  Display - "\n\n>>> %s <<< \n \n" on console screen.
+           [ 1. <%s> - "option_20" ]
+
+STEP 234 :- Display - "Enter the String :- " on console screen.
+
+STEP 235 :- Take input from user and assign it to "STR_IN_1" 
+
+STEP 236 :- Assign value - "0" to "num_2";
+
+STEP 237 :- Display - "\n\n\n Number of Consonant(s) in the string [ %s ] is / are  " on console screen.
+           [ 1. <%s> - "STR_IN_1" ]
+
+STEP 238 :- START of "for loop" with (num = 0; STR_IN_1[num] != '\0'; num++) 
+		
+STEP 239 :- "if" condition :-
+            CONDITION :- "STR_IN_1[num]" not equal to "a"
+                        and "STR_IN_1[num]" not equal to "A"
+                        and "STR_IN_1[num]" not equal to "e"
+                        and "STR_IN_1[num]" not equal to "E"
+                        and "STR_IN_1[num]" not equal to "i"
+                        and "STR_IN_1[num]" not equal to "I"
+                        and "STR_IN_1[num]" not equal to "o"
+                        and "STR_IN_1[num]" not equal to "O"
+                        and "STR_IN_1[num]" not equal to "u"
+                        and "STR_IN_1[num]" not equal to "U"
+                        
+STEP 240 :- << TRUE >> PRE-INCREMENT the value of "num_2"
+
+STEP 241 :- << FALSE >> CONTINUE FLOW FROM STEP 242
+ 
+STEP 242 :- Display - "%d" on console screen.
+           [ 1. <%d> - "num_2" ]
+
+STEP 243 :- END of "for loop" with (num = 0; STR_IN_1[num] != '\0'; num++)
+
+STEP 244 :- END OF THE SWITCH CASE 20 with BREAK.
+		
+		
+				
+		
+STEP 245 :- DEFAULT OPERATION FOR SWITCH
+            CONDITION :- "options_selection" not equal to "1"
+                        and "options_selection" not equal to "2"
+                        and "options_selection" not equal to "3"
+                        and "options_selection" not equal to "4"
+                        and "options_selection" not equal to "5"
+                        and "options_selection" not equal to "6"
+                        and "options_selection" not equal to "7"
+                        and "options_selection" not equal to "8"
+                        and "options_selection" not equal to "9"
+                        and "options_selection" not equal to "10"
+                        and "options_selection" not equal to "11"
+                        and "options_selection" not equal to "12"
+                        and "options_selection" not equal to "13"
+                        and "options_selection" not equal to "14"
+                        and "options_selection" not equal to "15"
+                        and "options_selection" not equal to "16"
+                        and "options_selection" not equal to "17"
+                        and "options_selection" not equal to "18"
+                        and "options_selection" not equal to "19"
+                        and "options_selection" not equal to "20"
+            
+                        
+STEP 246 :- << TRUE >> CLEAR CONSOLE SCREEN
+
+STEP 247 :- << TRUE >> Assign the value of "the_end_with_default" - "1"
+
+STEP 248 :- << FALSE >> CONTINUE FLOW FROM STEP 249
+ 
+STEP 249 :- Display - "%s \n%s \n%s \n%s \n%s \n%s \n%s \n" on console screen.
+           [ 1. <%s> - "seperator_1" ]
+           [ 2. <%s> - "seperator_2" ]
+           [ 3. <%s> - "seperator_3" ]
+           [ 4. <%s> - "seperator_4" ]
+           [ 5. <%s> - "seperator_5" ]
+           [ 6. <%s> - "seperator_6" ]
+           [ 7. <%s> - "seperator_7" ]
+
+STEP 250 :- Display - "\n\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!" on console screen.
+
+STEP 251 :- Display - "\n\n\n                      !! Invalid Input !!" on console screen.
+
+STEP 252 :- Display - "\n\n\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n\n\n" on console screen.
+
+STEP 253 :- Display - "%s \n%s \n%s \n%s \n%s \n%s \n%s \n" on console screen.
+           [ 1. <%s> - "seperator_7" ]
+           [ 2. <%s> - "seperator_6" ]
+           [ 3. <%s> - "seperator_5" ]
+           [ 4. <%s> - "seperator_4" ]
+           [ 5. <%s> - "seperator_3" ]
+           [ 6. <%s> - "seperator_2" ]
+           [ 7. <%s> - "seperator_1" ]
+		
+STEP 254 :- "if" Condition "the_end_with_default==0"
+            
+STEP 255 :- << TRUE >> CONTINUE FLOW FROM STEP 257
+
+STEP 256 :- << FALSE >> MOVE DIRECT TO STEP 270
+ 
+
+STEP 257 :- Display - "\n\n\n\n<^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^>" on console screen.
+
+STEP 258 :- Display - "\n<^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^>" on console screen.
+
+STEP 259 :- Display - "\n<^><Y><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^>" on console screen.
+
+STEP 260 :- Display - "\n<^><A><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^>" on console screen.
+
+STEP 261 :- Display - "\n<^><S><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^>" on console screen.
+
+STEP 262 :- Display - "\n<^><H><^><^><^><^><^><^><^><^>     THANK YOU    <^><^><^><^><^><^><^><^><^><^>" on console screen.
+
+STEP 263 :- Display - "\n<^><^><^><^><^><^><^><^>                              <^><^><^><^><^><^><^><^>" on console screen.
+
+STEP 264 :- Display - "\n<^><D><^><^><^><^><^><^>     FOR USING THIS PROGRAM   <^><^><^><^><^><^><^><^>" on console screen.
+
+STEP 265 :- Display - "\n<^><E><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^>" on console screen.
+
+STEP 266 :- Display - "\n<^><S><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^>" on console screen.
+
+STEP 267 :- Display - "\n<^><A><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^>" on console screen.
+
+STEP 268 :- Display - "\n<^><I><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^>" on console screen.
+
+STEP 269 :- Display - "\n<^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^><^>\n" on console screen.
+
+STEP 270 :- STOP
