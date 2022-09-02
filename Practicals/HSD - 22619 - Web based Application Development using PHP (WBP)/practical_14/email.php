@@ -1,12 +1,12 @@
 <?php
   require_once "Mail.php";
-  $from = "sm3.sam.mural@gmail.com";
-  $to = 'yashdesai7204@gmail.com';
+  $from = "froml@gmail.com";
+  $to = 'to@gmail.com';
 
   $host = "ssl://smtp.gmail.com";
   $port = "465";
-  $username = "sm3.sam.mural@gmail.com";
-  $password = "iU9A9DTfZfwENwQ";
+  $username = "";
+  $password = "";
   
   $subject = "TESTING";
   $body = "HELLO! This is a Test Message....";
