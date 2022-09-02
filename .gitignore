@@ -1,2 +1,7 @@
 # Executables
 *.exe
+
+# For VB.NET Practicals
+.vs/
+bin/
+obj/

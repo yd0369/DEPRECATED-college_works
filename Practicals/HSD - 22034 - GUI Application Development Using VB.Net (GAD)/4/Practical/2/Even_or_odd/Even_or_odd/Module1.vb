@@ -1,0 +1,12 @@
+﻿Module Module1
+    Sub Main()
+        Console.Write("Enter the Number : ")
+        Dim NUM As Double = Console.ReadLine()
+        If ((NUM Mod 2) = 0) Then
+            Console.WriteLine(NUM & " is Even")
+        Else
+            Console.WriteLine(NUM & " is Odd")
+        End If
+        Console.ReadLine()
+    End Sub
+End Module

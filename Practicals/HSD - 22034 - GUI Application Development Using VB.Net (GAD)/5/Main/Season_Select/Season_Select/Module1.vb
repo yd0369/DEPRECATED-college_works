@@ -1,0 +1,18 @@
+﻿Module Module1
+    Sub Main()
+        Console.Write("Enter the Month Number : ")
+        Select Case Console.ReadLine()
+            Case 1, 2, 3
+                Console.WriteLine("Autumn/Spring Season")
+            Case 4, 5, 6
+                Console.WriteLine("Summer Season")
+            Case 7, 8, 9
+                Console.WriteLine("Monsoon/Rainy Season")
+            Case 10, 11, 12
+                Console.WriteLine("Winter Season")
+            Case Else
+                Console.WriteLine("Invalid Input")
+        End Select
+        Console.ReadLine()
+    End Sub
+End Module

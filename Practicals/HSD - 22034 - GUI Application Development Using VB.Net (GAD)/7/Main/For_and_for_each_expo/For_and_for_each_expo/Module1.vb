@@ -1,0 +1,14 @@
+﻿Module Module1
+    Sub Main()
+        Dim i(3), count As Integer
+        For x As Integer = 0 To 3
+            Console.Write("i[" & x & "] : ")
+            i(x) = Console.ReadLine()
+        Next x
+        For Each x As Integer In i
+            count = count + 1
+        Next x
+        Console.WriteLine("Total Elements : " & count)
+        Console.ReadLine()
+    End Sub
+End Module
