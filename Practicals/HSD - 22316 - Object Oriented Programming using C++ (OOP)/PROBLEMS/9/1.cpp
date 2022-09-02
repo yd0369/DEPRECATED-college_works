@@ -1,19 +1,17 @@
 #include<iostream>
+
 using namespace std;
-class InlineDemo
-{
-public:
-inline int square (int is);
+class InlineDemo {
+    public:
+        inline int square(int is);
 };
 
 //use inline prefix
-inline int InlineDemo::square(int s)
-{
-return s*s;
+inline int InlineDemo::square(int s) {
+    return s * s;
 }
-main()
-{
+main() {
 
-InlineDemo s;
-cout<<"Square of a No is:"<<s.square (10);
+    InlineDemo s;
+    cout << "Square of a No is:" << s.square(10);
 }
