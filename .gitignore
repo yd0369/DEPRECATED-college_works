@@ -5,3 +5,6 @@
 .vs/
 bin/
 obj/
+
+# For Java 
+*.class
