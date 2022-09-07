@@ -1,0 +1,203 @@
+
+Packet Tracer PC Command Line 1.0
+C:\>ping 192.168.1.254
+
+Pinging 192.168.1.254 with 32 bytes of data:
+
+Reply from 192.168.1.254: bytes=32 time=1ms TTL=255
+Reply from 192.168.1.254: bytes=32 time<1ms TTL=255
+Reply from 192.168.1.254: bytes=32 time<1ms TTL=255
+Reply from 192.168.1.254: bytes=32 time<1ms TTL=255
+
+Ping statistics for 192.168.1.254:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 1ms, Average = 0ms
+
+C:\>ping 192.168.1.1
+
+Pinging 192.168.1.1 with 32 bytes of data:
+
+Reply from 192.168.1.1: bytes=32 time=1ms TTL=127
+Reply from 192.168.1.1: bytes=32 time<1ms TTL=127
+Reply from 192.168.1.1: bytes=32 time<1ms TTL=127
+Reply from 192.168.1.1: bytes=32 time<1ms TTL=127
+
+Ping statistics for 192.168.1.1:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 1ms, Average = 0ms
+
+C:\>ping 192.168.1.2
+
+Pinging 192.168.1.2 with 32 bytes of data:
+
+Reply from 192.168.1.2: bytes=32 time<1ms TTL=127
+Reply from 192.168.1.2: bytes=32 time=7ms TTL=127
+Reply from 192.168.1.2: bytes=32 time<1ms TTL=127
+Reply from 192.168.1.2: bytes=32 time<1ms TTL=127
+
+Ping statistics for 192.168.1.2:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 7ms, Average = 1ms
+
+C:\>ping 192.168.2.254
+
+Pinging 192.168.2.254 with 32 bytes of data:
+
+Reply from 192.168.2.254: bytes=32 time=1ms TTL=255
+Reply from 192.168.2.254: bytes=32 time<1ms TTL=255
+Reply from 192.168.2.254: bytes=32 time=3ms TTL=255
+Reply from 192.168.2.254: bytes=32 time<1ms TTL=255
+
+Ping statistics for 192.168.2.254:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 3ms, Average = 1ms
+
+C:\>ping 192.168.2.1
+
+Pinging 192.168.2.1 with 32 bytes of data:
+
+Reply from 192.168.2.1: bytes=32 time=1ms TTL=127
+Reply from 192.168.2.1: bytes=32 time<1ms TTL=127
+Reply from 192.168.2.1: bytes=32 time=1ms TTL=127
+Reply from 192.168.2.1: bytes=32 time<1ms TTL=127
+
+Ping statistics for 192.168.2.1:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 1ms, Average = 0ms
+
+C:\>ping 192.168.2.2
+
+Pinging 192.168.2.2 with 32 bytes of data:
+
+Reply from 192.168.2.2: bytes=32 time<1ms TTL=127
+Reply from 192.168.2.2: bytes=32 time<1ms TTL=127
+Reply from 192.168.2.2: bytes=32 time=1ms TTL=127
+Reply from 192.168.2.2: bytes=32 time<1ms TTL=127
+
+Ping statistics for 192.168.2.2:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 1ms, Average = 0ms
+
+C:\>ping 192.168.3.254
+
+Pinging 192.168.3.254 with 32 bytes of data:
+
+Reply from 192.168.3.254: bytes=32 time<1ms TTL=255
+Reply from 192.168.3.254: bytes=32 time<1ms TTL=255
+Reply from 192.168.3.254: bytes=32 time=1ms TTL=255
+Reply from 192.168.3.254: bytes=32 time<1ms TTL=255
+
+Ping statistics for 192.168.3.254:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 1ms, Average = 0ms
+
+C:\>ping 192.168.3.1
+
+Pinging 192.168.3.1 with 32 bytes of data:
+
+Reply from 192.168.3.1: bytes=32 time<1ms TTL=128
+Reply from 192.168.3.1: bytes=32 time=16ms TTL=128
+Reply from 192.168.3.1: bytes=32 time=6ms TTL=128
+Reply from 192.168.3.1: bytes=32 time=6ms TTL=128
+
+Ping statistics for 192.168.3.1:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 16ms, Average = 7ms
+
+C:\>ping 192.168.3.2
+
+Pinging 192.168.3.2 with 32 bytes of data:
+
+Reply from 192.168.3.2: bytes=32 time=1ms TTL=128
+Reply from 192.168.3.2: bytes=32 time<1ms TTL=128
+Reply from 192.168.3.2: bytes=32 time<1ms TTL=128
+Reply from 192.168.3.2: bytes=32 time<1ms TTL=128
+
+Ping statistics for 192.168.3.2:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 1ms, Average = 0ms
+
+C:\>tracert 192.168.1.254
+
+Tracing route to 192.168.1.254 over a maximum of 30 hops: 
+
+  1   2 ms      0 ms      0 ms      192.168.1.254
+
+Trace complete.
+
+C:\>tracert 192.168.1.1
+
+Tracing route to 192.168.1.1 over a maximum of 30 hops: 
+
+  1   0 ms      0 ms      0 ms      192.168.3.254
+  2   0 ms      0 ms      0 ms      192.168.1.1
+
+Trace complete.
+
+C:\>tracert 192.168.1.2
+
+Tracing route to 192.168.1.2 over a maximum of 30 hops: 
+
+  1   1 ms      1 ms      0 ms      192.168.3.254
+  2   0 ms      2 ms      0 ms      192.168.1.2
+
+Trace complete.
+
+C:\>tracert 192.168.2.254
+
+Tracing route to 192.168.2.254 over a maximum of 30 hops: 
+
+  1   1 ms      1 ms      0 ms      192.168.2.254
+
+Trace complete.
+
+C:\>tracert 192.168.2.1
+
+Tracing route to 192.168.2.1 over a maximum of 30 hops: 
+
+  1   1 ms      0 ms      0 ms      192.168.3.254
+  2   1 ms      0 ms      1 ms      192.168.2.1
+
+Trace complete.
+
+C:\>tracert 192.168.2.2
+
+Tracing route to 192.168.2.2 over a maximum of 30 hops: 
+
+  1   1 ms      1 ms      0 ms      192.168.3.254
+  2   0 ms      0 ms      1 ms      192.168.2.2
+
+Trace complete.
+
+C:\>tracert 192.168.3.254
+
+Tracing route to 192.168.3.254 over a maximum of 30 hops: 
+
+  1   1 ms      0 ms      0 ms      192.168.3.254
+
+Trace complete.
+
+C:\>tracert 192.168.3.1
+
+Tracing route to 192.168.3.1 over a maximum of 30 hops: 
+
+  1   0 ms      5 ms      2 ms      192.168.3.1
+
+Trace complete.
+
+C:\>tracert 192.168.3.2
+
+Tracing route to 192.168.3.2 over a maximum of 30 hops: 
+
+  1   1 ms      0 ms      0 ms      192.168.3.2
+
+Trace complete.

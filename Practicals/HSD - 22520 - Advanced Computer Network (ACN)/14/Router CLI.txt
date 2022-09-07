@@ -1,0 +1,41 @@
+Router>enable
+Router#
+Router#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+Router(config)#interface FastEthernet0/0
+Router(config-if)#ip address 1.255.255.254 255.0.0.0
+Router(config-if)#no shutdown
+Router(config-if)#exit
+Router(config)#interface FastEthernet1/0
+Router(config-if)#ip address 2.255.255.254 255.0.0.0
+Router(config-if)#no shutdown
+Router(config-if)#exit
+Router(config)#line vty 0
+Router(config-line)#password 0000
+Router(config-line)#login
+Router(config-line)#enable password 0000
+Router(config)#ip domain name SSH_INTERFACE
+Router(config)#crypto key generate ?
+  rsa  Generate RSA keys
+Router(config)#crypto key generate rsa
+% Please define a hostname other than Router.
+Router(config)#ip domain name SSH_INTERFACE
+Router(config)#hostname Yash_Desai
+Yash_Desai(config)#crypto key generate rsa
+The name for the keys will be: Yash_Desai.SSH_INTERFACE
+Choose the size of the key modulus in the range of 360 to 2048 for your
+  General Purpose Keys. Choosing a key modulus greater than 512 may take
+  a few minutes.
+
+How many bits in the modulus [512]: 2048
+% Generating 2048 bit RSA keys, keys will be non-exportable...[OK]
+
+Yash_Desai(config)#ip ssh version 
+*Mar 2 1:38:2.741: %SSH-5-ENABLED: SSH 1.99 has been enabled
+Yash_Desai(config)#ip ssh version 2
+Yash_Desai(config)#line vty 1
+Yash_Desai(config-line)#transport input ssh
+Yash_Desai(config-line)#exit
+Yash_Desai(config)#exit
+Yash_Desai#
+%SYS-5-CONFIG_I: Configured from console by console

@@ -1,0 +1,80 @@
+___________________________________________________________________________________________________
+
+Serial Number : 2	
+Time          : 0.000093
+Source        : 127.0.0.1
+Destination   :	127.0.0.1	
+Protocol      : ICMP	
+Length        : 74	
+Information   : Echo (ping) reply    id=0x0001, seq=356/25601, ttl=128 (request in 1)
+___________________________________________________________________________________________________
+
+0000   00 00 00 00 00 00 00 00 00 00 00 00 08 00 45 00   ..............E.
+0010   00 3c f7 10 00 00 80 01 00 00 7f 00 00 01 7f 00   .<..............
+0020   00 01 00 00 53 f7 00 01 01 64 61 62 63 64 65 66   ....S....dabcdef
+0030   67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76   ghijklmnopqrstuv
+0040   77 61 62 63 64 65 66 67 68 69                     wabcdefghi
+___________________________________________________________________________________________________
+
+Frame 2: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{228E5EC4-2337-45F6-A73D-C71066FD9F6A})
+        Interface name: \Device\NPF_{228E5EC4-2337-45F6-A73D-C71066FD9F6A}
+        Interface description: Npcap Loopback Adapter
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Jul 14, 2019 10:25:25.432157000 India Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1564548925.432157000 seconds
+    [Time delta from previous captured frame: 0.000093000 seconds]
+    [Time delta from previous displayed frame: 0.000093000 seconds]
+    [Time since reference or first frame: 0.000093000 seconds]
+    Frame Number: 2
+    Frame Length: 74 bytes (592 bits)
+    Capture Length: 74 bytes (592 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:icmp:data]
+    [Coloring Rule Name: ICMP]
+    [Coloring Rule String: icmp || icmpv6]
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+    Destination: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 60
+    Identification: 0xf710 (63248)
+    Flags: 0x0000
+        0... .... .... .... = Reserved bit: Not set
+        .0.. .... .... .... = Don't fragment: Not set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 128
+    Protocol: ICMP (1)
+    Header checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 127.0.0.1
+    Destination: 127.0.0.1
+Internet Control Message Protocol
+    Type: 0 (Echo (ping) reply)
+    Code: 0
+    Checksum: 0x53f7 [correct]
+    [Checksum Status: Good]
+    Identifier (BE): 1 (0x0001)
+    Identifier (LE): 256 (0x0100)
+    Sequence number (BE): 356 (0x0164)
+    Sequence number (LE): 25601 (0x6401)
+    [Request frame: 1]
+    [Response time: 0.093 ms]
+    Data (32 bytes)
+        Data: 6162636465666768696a6b6c6d6e6f707172737475767761…
+        [Length: 32]

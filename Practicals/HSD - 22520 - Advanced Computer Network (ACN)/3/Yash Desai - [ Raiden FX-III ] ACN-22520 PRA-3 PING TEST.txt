@@ -1,0 +1,143 @@
+_______________________[PC0 --> PC0]__________________________
+C:\>ping FE80::2E0:F7FF:FE05:2D9E
+
+Pinging FE80::2E0:F7FF:FE05:2D9E with 32 bytes of data:
+
+Reply from FE80::2E0:F7FF:FE05:2D9E: bytes=32 time<1ms TTL=128
+Reply from FE80::2E0:F7FF:FE05:2D9E: bytes=32 time=4ms TTL=128
+Reply from FE80::2E0:F7FF:FE05:2D9E: bytes=32 time=2ms TTL=128
+Reply from FE80::2E0:F7FF:FE05:2D9E: bytes=32 time<1ms TTL=128
+
+Ping statistics for FE80::2E0:F7FF:FE05:2D9E:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 4ms, Average = 1ms
+______________________________________________________________
+
+_______________________[PC0 --> PC1]__________________________
+C:\>ping FE80::2D0:97FF:FE0A:B2E6
+
+Pinging FE80::2D0:97FF:FE0A:B2E6 with 32 bytes of data:
+
+Reply from FE80::2D0:97FF:FE0A:B2E6: bytes=32 time=1ms TTL=128
+Reply from FE80::2D0:97FF:FE0A:B2E6: bytes=32 time<1ms TTL=128
+Reply from FE80::2D0:97FF:FE0A:B2E6: bytes=32 time<1ms TTL=128
+Reply from FE80::2D0:97FF:FE0A:B2E6: bytes=32 time<1ms TTL=128
+
+Ping statistics for FE80::2D0:97FF:FE0A:B2E6:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 1ms, Average = 0ms
+______________________________________________________________
+
+_______________________[PC0 --> PC2]__________________________
+C:\>ping FE80::260:70FF:FE14:7C69
+
+Pinging FE80::260:70FF:FE14:7C69 with 32 bytes of data:
+
+Reply from FE80::260:70FF:FE14:7C69: bytes=32 time<1ms TTL=128
+Reply from FE80::260:70FF:FE14:7C69: bytes=32 time<1ms TTL=128
+Reply from FE80::260:70FF:FE14:7C69: bytes=32 time<1ms TTL=128
+Reply from FE80::260:70FF:FE14:7C69: bytes=32 time<1ms TTL=128
+
+Ping statistics for FE80::260:70FF:FE14:7C69:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+______________________________________________________________
+
+_______________________[PC1 --> PC0]__________________________
+C:\>ping FE80::2E0:F7FF:FE05:2D9E
+
+Pinging FE80::2E0:F7FF:FE05:2D9E with 32 bytes of data:
+
+Reply from FE80::2E0:F7FF:FE05:2D9E: bytes=32 time=81ms TTL=128
+Reply from FE80::2E0:F7FF:FE05:2D9E: bytes=32 time=1ms TTL=128
+Reply from FE80::2E0:F7FF:FE05:2D9E: bytes=32 time<1ms TTL=128
+Reply from FE80::2E0:F7FF:FE05:2D9E: bytes=32 time<1ms TTL=128
+
+Ping statistics for FE80::2E0:F7FF:FE05:2D9E:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 81ms, Average = 20ms
+______________________________________________________________
+
+_______________________[PC1 --> PC1]__________________________
+C:\>ping FE80::2D0:97FF:FE0A:B2E6
+
+Pinging FE80::2D0:97FF:FE0A:B2E6 with 32 bytes of data:
+
+Reply from FE80::2D0:97FF:FE0A:B2E6: bytes=32 time=2ms TTL=128
+Reply from FE80::2D0:97FF:FE0A:B2E6: bytes=32 time=4ms TTL=128
+Reply from FE80::2D0:97FF:FE0A:B2E6: bytes=32 time=5ms TTL=128
+Reply from FE80::2D0:97FF:FE0A:B2E6: bytes=32 time=4ms TTL=128
+
+Ping statistics for FE80::2D0:97FF:FE0A:B2E6:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 2ms, Maximum = 5ms, Average = 3ms
+______________________________________________________________
+
+_______________________[PC1 --> PC2]__________________________
+C:\>ping FE80::260:70FF:FE14:7C69
+
+Pinging FE80::260:70FF:FE14:7C69 with 32 bytes of data:
+
+Reply from FE80::260:70FF:FE14:7C69: bytes=32 time=1ms TTL=128
+Reply from FE80::260:70FF:FE14:7C69: bytes=32 time<1ms TTL=128
+Reply from FE80::260:70FF:FE14:7C69: bytes=32 time<1ms TTL=128
+Reply from FE80::260:70FF:FE14:7C69: bytes=32 time<1ms TTL=128
+
+Ping statistics for FE80::260:70FF:FE14:7C69:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 1ms, Average = 0ms
+______________________________________________________________
+
+_______________________[PC2 --> PC0]__________________________
+C:\>ping FE80::2E0:F7FF:FE05:2D9E
+
+Pinging FE80::2E0:F7FF:FE05:2D9E with 32 bytes of data:
+
+Reply from FE80::2E0:F7FF:FE05:2D9E: bytes=32 time=1ms TTL=128
+Reply from FE80::2E0:F7FF:FE05:2D9E: bytes=32 time<1ms TTL=128
+Reply from FE80::2E0:F7FF:FE05:2D9E: bytes=32 time<1ms TTL=128
+Reply from FE80::2E0:F7FF:FE05:2D9E: bytes=32 time=1ms TTL=128
+
+Ping statistics for FE80::2E0:F7FF:FE05:2D9E:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 1ms, Average = 0ms
+______________________________________________________________
+
+_______________________[PC2 --> PC1]__________________________
+C:\>ping FE80::2D0:97FF:FE0A:B2E6
+
+Pinging FE80::2D0:97FF:FE0A:B2E6 with 32 bytes of data:
+
+Reply from FE80::2D0:97FF:FE0A:B2E6: bytes=32 time<1ms TTL=128
+Reply from FE80::2D0:97FF:FE0A:B2E6: bytes=32 time<1ms TTL=128
+Reply from FE80::2D0:97FF:FE0A:B2E6: bytes=32 time=1ms TTL=128
+Reply from FE80::2D0:97FF:FE0A:B2E6: bytes=32 time=1ms TTL=128
+
+Ping statistics for FE80::2D0:97FF:FE0A:B2E6:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 1ms, Average = 0ms
+______________________________________________________________
+
+_______________________[PC2 --> PC2]__________________________
+C:\>ping FE80::260:70FF:FE14:7C69
+
+Pinging FE80::260:70FF:FE14:7C69 with 32 bytes of data:
+
+Reply from FE80::260:70FF:FE14:7C69: bytes=32 time=5ms TTL=128
+Reply from FE80::260:70FF:FE14:7C69: bytes=32 time<1ms TTL=128
+Reply from FE80::260:70FF:FE14:7C69: bytes=32 time<1ms TTL=128
+Reply from FE80::260:70FF:FE14:7C69: bytes=32 time=2ms TTL=128
+
+Ping statistics for FE80::260:70FF:FE14:7C69:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 5ms, Average = 1ms
+______________________________________________________________

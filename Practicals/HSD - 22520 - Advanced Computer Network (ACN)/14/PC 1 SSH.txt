@@ -1,0 +1,14 @@
+
+Packet Tracer PC Command Line 1.0
+C:\>ssh -l admin 2.255.255.254
+
+Password: 
+
+
+
+Yash_Desai>enable
+Password: 
+Yash_Desai#exit
+
+[Connection to 2.255.255.254 closed by foreign host]
+C:\>

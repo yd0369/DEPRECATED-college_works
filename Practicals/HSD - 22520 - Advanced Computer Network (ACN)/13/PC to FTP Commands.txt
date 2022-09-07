@@ -1,0 +1,57 @@
+C:\>ftp 1.255.255.2
+Trying to connect...1.255.255.2
+Connected to 1.255.255.2
+220- Welcome to PT Ftp server
+Username:Yash Desai
+331- Username ok, need password
+Password:
+230- Logged in
+(passive mode On)
+ftp>help
+         ?
+         cd
+         delete
+         dir
+         get
+         help
+         passive
+         put
+         pwd
+         quit
+         rename
+ftp>dir
+Listing /ftp directory from 1.255.255.2: 
+0   : asa842-k8.bin                                      5571584
+1   : asa923-k8.bin                                      30468096
+2   : c1841-advipservicesk9-mz.124-15.T1.bin             33591768
+3   : c1841-ipbase-mz.123-14.T7.bin                      13832032
+4   : c1841-ipbasek9-mz.124-12.bin                       16599160
+5   : c1900-universalk9-mz.SPA.155-3.M4a.bin             33591768
+6   : c2600-advipservicesk9-mz.124-15.T1.bin             33591768
+7   : c2600-i-mz.122-28.bin                              5571584
+8   : c2600-ipbasek9-mz.124-8.bin                        13169700
+9   : c2800nm-advipservicesk9-mz.124-15.T1.bin           50938004
+10  : c2800nm-advipservicesk9-mz.151-4.M4.bin            33591768
+11  : c2800nm-ipbase-mz.123-14.T7.bin                    5571584
+12  : c2800nm-ipbasek9-mz.124-8.bin                      15522644
+13  : c2900-universalk9-mz.SPA.155-3.M4a.bin             33591768
+14  : c2950-i6q4l2-mz.121-22.EA4.bin                     3058048
+15  : c2950-i6q4l2-mz.121-22.EA8.bin                     3117390
+16  : c2960-lanbase-mz.122-25.FX.bin                     4414921
+17  : c2960-lanbase-mz.122-25.SEE1.bin                   4670455
+18  : c2960-lanbasek9-mz.150-2.SE4.bin                   4670455
+19  : c3560-advipservicesk9-mz.122-37.SE1.bin            8662192
+20  : c3560-advipservicesk9-mz.122-46.SE.bin             10713279
+21  : c800-universalk9-mz.SPA.152-4.M4.bin               33591768
+22  : c800-universalk9-mz.SPA.154-3.M6a.bin              83029236
+23  : cat3k_caa-universalk9.16.03.02.SPA.bin             505532849
+24  : cgr1000-universalk9-mz.SPA.154-2.CG                159487552
+25  : cgr1000-universalk9-mz.SPA.156-3.CG                184530138
+26  : ir800-universalk9-bundle.SPA.156-3.M.bin           160968869
+27  : ir800-universalk9-mz.SPA.155-3.M                   61750062
+28  : ir800-universalk9-mz.SPA.156-3.M                   63753767
+29  : ir800_yocto-1.7.2.tar                              2877440
+30  : ir800_yocto-1.7.2_python-2.7.3.tar                 6912000
+31  : pt1000-i-mz.122-28.bin                             5571584
+32  : pt3000-i6q4l2-mz.121-22.EA4.bin                    3117390
+ftp>

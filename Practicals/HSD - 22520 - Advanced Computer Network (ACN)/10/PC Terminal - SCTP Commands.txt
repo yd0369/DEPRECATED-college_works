@@ -1,0 +1,20 @@
+Router>enable
+Router# configure terminal 
+Enter configuration commands, one per line.  End with CNTL/Z. 
+Router(config)# ip sctp authenticate sack
+Router(config)# ip sctp asconf auto
+Router(config)# iua 
+Router(config-iua)# show sctp association list
+(sctp-n configure)
+Router(config-iua)# as as5400-3 fail-over 1000
+Router(config-iua)# as as5400-3 sctp-startup 20
+Router(config-iua)# as as5400-3 sctp-streams 57
+Router(config-iua)# as as5400-3 sctp-t1init 60000
+Router(config-iua)# exit
+Router(config)# exit
+
+Router# show debugging
+Persistent variable debugging is currently All
+SNAP Server Debugging ON 
+SNAP Client Debugging ON
+Router#

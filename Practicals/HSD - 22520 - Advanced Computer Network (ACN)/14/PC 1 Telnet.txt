@@ -1,0 +1,15 @@
+
+Packet Tracer PC Command Line 1.0
+C:\>telnet 1.255.255.254
+Trying 1.255.255.254 ...Open
+
+
+User Access Verification
+
+Password: 
+Router>enable
+Password: 
+Router#exit
+
+[Connection to 1.255.255.254 closed by foreign host]
+C:\>
