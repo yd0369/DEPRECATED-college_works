@@ -1,0 +1,11 @@
+b = (float)(input("Bit(s) : "))
+B =  b  / 8
+KB = B  / 1024
+MB = KB / 1024
+GB = MB / 1024
+TB = GB / 1024
+print ('    Byte(s) = %(B).100f B' % {'B': B})
+print ('Kilobyte(s) = %(KB).100f KB' % {'KB': KB})
+print ('Megabyte(s) = %(MB).100f MB' % {'MB': MB})
+print ('Gigabyte(s) = %(GB).100f GB' % {'GB': GB})
+print ('Terabyte(s) = %(TB).100f TB' % {'TB': TB})

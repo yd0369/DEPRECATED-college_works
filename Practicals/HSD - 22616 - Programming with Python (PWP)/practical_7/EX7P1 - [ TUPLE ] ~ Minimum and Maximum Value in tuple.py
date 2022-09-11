@@ -1,0 +1,5 @@
+TUPLE = (1,2,3,4,5)
+MAX = max(TUPLE)
+MIN = min(TUPLE)
+print("Maximum Value : ",MAX)
+print("Minimum Value : ",MIN)
