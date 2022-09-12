@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name='P8E1 - Demo Auto Complete TextView'
