@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="40dp">
+
+    <EditText
+        android:id="@+id/data"
+        android:layout_width="match_parent"
+        android:layout_height="58dp" />
+
+    <Button
+        android:id="@+id/make_entry"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:text="MAKE ENTRY" />
+
+</LinearLayout>

@@ -1,0 +1,2 @@
+rootProject.name='P26E1 - Inserting Data in Database using AsyncTask'
+include ':app'
