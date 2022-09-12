@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_height="match_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:orientation="vertical"
+android:background="@android:color/black">
+
+    <TextView
+        android:id="@+id/duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"/>
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal" />
+
+    <Button
+        android:id="@+id/duration_plus"
+        android:text="+"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right" />
+
+    <Button
+        android:id="@+id/duration_minus"
+        android:text="-"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"/>
+
+    <Button
+        android:id="@+id/fade_in"
+        android:text="Fade In"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/fade_out"
+        android:text="Fade Out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="40dp"/>
+
+
+    <Button
+        android:id="@+id/zoom_in"
+        android:text="Zoom In"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:layout_marginBottom="80dp"/>
+
+    <Button
+        android:id="@+id/zoom_out"
+        android:text="Zoom Out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="80dp"/>
+
+
+    <Button
+        android:id="@+id/rotate_clockwise"
+        android:text="Rotate Clockwise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"/>
+
+    <Button
+        android:id="@+id/rotate_anticlockwise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rotate Anti-Clockwise"
+        android:layout_gravity="bottom|right"/>
+
+</FrameLayout>
