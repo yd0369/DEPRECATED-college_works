@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/receiver_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Receiver Address"
+        />
+
+    <EditText
+        android:id="@+id/msg_subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Subject"
+        />
+
+    <EditText
+        android:id="@+id/msg_body"
+        android:hint="Message Body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="15"
+        android:gravity="start|top" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Email" />
+
+</LinearLayout>
