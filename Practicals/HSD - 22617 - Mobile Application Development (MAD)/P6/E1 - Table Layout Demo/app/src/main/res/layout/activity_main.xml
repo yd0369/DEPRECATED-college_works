@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:stretchColumns="1">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="R.#"
+            android:background="@android:color/background_dark"
+            android:textColor="@android:color/holo_purple"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Name"
+            android:background="@android:color/background_dark"
+            android:textColor="@android:color/holo_purple"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Age"
+            android:background="@android:color/background_dark"
+            android:textColor="@android:color/holo_purple"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/background_dark"
+            android:text="Gender"
+            android:textColor="@android:color/holo_purple" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/r2_rno"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="1"
+            android:textColor="@android:color/holo_purple"/>
+
+        <TextView
+            android:id="@+id/r2_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Yash Desai"
+            android:textColor="@android:color/holo_purple"/>
+
+        <TextView
+            android:id="@+id/r2_age"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="18"
+            android:textColor="@android:color/holo_purple"/>
+
+        <TextView
+            android:id="@+id/r2_gender"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Male"
+            android:textColor="@android:color/holo_purple" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/r1_rno"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="2"
+            android:textColor="@android:color/holo_purple"/>
+
+        <TextView
+            android:id="@+id/r1_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Sonu Tiwari"
+            android:textColor="@android:color/holo_purple"/>
+
+        <TextView
+            android:id="@+id/r_age"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="19"
+            android:textColor="@android:color/holo_purple"/>
+
+        <TextView
+            android:id="@+id/r_gender"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Male"
+            android:textColor="@android:color/holo_purple" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/r3_rno"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="3"
+            android:textColor="@android:color/holo_purple"/>
+
+        <TextView
+            android:id="@+id/r3_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Shivam Marwadi"
+            android:textColor="@android:color/holo_purple"/>
+
+        <TextView
+            android:id="@+id/r3_age"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="19"
+            android:textColor="@android:color/holo_purple"/>
+
+        <TextView
+            android:id="@+id/r3_gender"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Male"
+            android:textColor="@android:color/holo_purple" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/r4_rno"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="4"
+            android:textColor="@android:color/holo_purple"/>
+
+        <TextView
+            android:id="@+id/r4_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Bhushan Naidu"
+            android:textColor="@android:color/holo_purple"/>
+
+        <TextView
+            android:id="@+id/r4_age"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="18"
+            android:textColor="@android:color/holo_purple"/>
+
+        <TextView
+            android:id="@+id/r4_gender"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Male"
+            android:textColor="@android:color/holo_purple" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/r5_rno"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="5"
+            android:textColor="@android:color/holo_purple"/>
+
+        <TextView
+            android:id="@+id/r5_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Ameya Bansod"
+            android:textColor="@android:color/holo_purple"/>
+
+        <TextView
+            android:id="@+id/r5_age"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="19"
+            android:textColor="@android:color/holo_purple"/>
+
+        <TextView
+            android:id="@+id/r5_gender"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Male"
+            android:textColor="@android:color/holo_purple" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/r6_rno"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="6"
+            android:textColor="@android:color/holo_purple"/>
+
+        <TextView
+            android:id="@+id/r6_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Abhinav Chandurkar"
+            android:textColor="@android:color/holo_purple"/>
+
+        <TextView
+            android:id="@+id/r6_age"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="19"
+            android:textColor="@android:color/holo_purple"/>
+
+        <TextView
+            android:id="@+id/r6_gender"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Male"
+            android:textColor="@android:color/holo_purple" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/r7_rno"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="7"
+            android:textColor="@android:color/holo_purple"/>
+
+        <TextView
+            android:id="@+id/r7_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Atharva Deshpande"
+            android:textColor="@android:color/holo_purple"/>
+
+        <TextView
+            android:id="@+id/r7_age"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="19"
+            android:textColor="@android:color/holo_purple"/>
+
+        <TextView
+            android:id="@+id/r7_gender"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Male"
+            android:textColor="@android:color/holo_purple" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/r8_rno"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="8"
+            android:textColor="@android:color/holo_purple"/>
+
+        <TextView
+            android:id="@+id/r8_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Vishal Gehlot"
+            android:textColor="@android:color/holo_purple"/>
+
+        <TextView
+            android:id="@+id/r8_age"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="19"
+            android:textColor="@android:color/holo_purple"/>
+
+        <TextView
+            android:id="@+id/r8_gender"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Male"
+            android:textColor="@android:color/holo_purple" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/r9_rno"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="9"
+            android:textColor="@android:color/holo_purple"/>
+
+        <TextView
+            android:id="@+id/r9_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Samir Mudliar"
+            android:textColor="@android:color/holo_purple"/>
+
+        <TextView
+            android:id="@+id/r9_age"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="19"
+            android:textColor="@android:color/holo_purple"/>
+
+        <TextView
+            android:id="@+id/r9_gender"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Male"
+            android:textColor="@android:color/holo_purple" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/r10_rno"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="10"
+            android:textColor="@android:color/holo_purple"/>
+
+        <TextView
+            android:id="@+id/r10_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="[OUT] Rakshit"
+            android:textColor="@android:color/holo_purple"/>
+
+        <TextView
+            android:id="@+id/r10_age"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="18"
+            android:textColor="@android:color/holo_purple"/>
+
+        <TextView
+            android:id="@+id/r10_gender"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Male"
+            android:textColor="@android:color/holo_purple" />
+    </TableRow>
+
+</TableLayout>
