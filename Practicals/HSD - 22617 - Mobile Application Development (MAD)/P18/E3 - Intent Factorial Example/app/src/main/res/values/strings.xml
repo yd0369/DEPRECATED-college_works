@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">P18E3 - Intent Factorial Example</string>
+    <string name="title_activity_result">ResultActivity</string>
+</resources>
