@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="19dp"
+        android:layout_y="180dp"
+        android:text="Mob. # : "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="28dp"
+        android:layout_y="94dp"
+        android:text="Name : "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="43dp"
+        android:layout_y="137dp"
+        android:text="Age : "
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/mobile_number"
+        android:layout_width="292dp"
+        android:layout_height="wrap_content"
+        android:layout_x="101dp"
+        android:layout_y="168dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="292dp"
+        android:layout_height="wrap_content"
+        android:layout_x="101dp"
+        android:layout_y="83dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="292dp"
+        android:layout_height="wrap_content"
+        android:layout_x="101dp"
+        android:layout_y="127dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/disp"
+        android:layout_width="226dp"
+        android:layout_height="90dp"
+        android:layout_x="89dp"
+        android:layout_y="313dp"
+        android:text="Display"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="345dp"
+        android:layout_height="192dp"
+        android:layout_x="29dp"
+        android:layout_y="495dp"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+</AbsoluteLayout>
