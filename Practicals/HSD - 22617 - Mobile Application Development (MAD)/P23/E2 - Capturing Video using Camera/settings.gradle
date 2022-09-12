@@ -1,0 +1,2 @@
+rootProject.name='P23E2 - Capturing Video using Camera'
+include ':app'

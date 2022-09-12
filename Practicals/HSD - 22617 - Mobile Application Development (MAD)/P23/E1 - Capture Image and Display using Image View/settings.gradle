@@ -1,0 +1,2 @@
+rootProject.name='P23E1 - Capture Image and Display using image view'
+include ':app'
