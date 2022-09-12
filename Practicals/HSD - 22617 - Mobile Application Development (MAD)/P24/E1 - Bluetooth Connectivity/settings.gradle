@@ -1,0 +1,2 @@
+rootProject.name='P24E1 - Bluetooth Connectivity'
+include ':app'
