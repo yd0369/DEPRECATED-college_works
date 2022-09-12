@@ -1,0 +1,2 @@
+rootProject.name='P31E1 - Mapping Current Location'
+include ':app'
