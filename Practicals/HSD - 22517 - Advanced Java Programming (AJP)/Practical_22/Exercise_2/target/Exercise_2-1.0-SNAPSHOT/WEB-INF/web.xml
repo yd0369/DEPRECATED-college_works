@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="4.0" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
+    <servlet>
+        <servlet-name>Exercise_2</servlet-name>
+        <servlet-class>com.yash_desai.AJP_22517.Practical_22.Exercise_2</servlet-class>
+        <init-param>
+            <param-name>AJP</param-name>
+            <param-value>0</param-value>
+        </init-param>
+        <init-param>
+            <param-name>ACN</param-name>
+            <param-value>0</param-value>
+        </init-param>
+        <init-param>
+            <param-name>OSY</param-name>
+            <param-value>0</param-value>
+        </init-param>
+        <init-param>
+            <param-name>STE</param-name>
+            <param-value>0</param-value>
+        </init-param>
+        <init-param>
+            <param-name>EST</param-name>
+            <param-value>0</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Exercise_2</servlet-name>
+        <url-pattern>/Exercise_2</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
