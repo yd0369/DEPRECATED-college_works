@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/black">
+
+    <ImageView
+        android:id="@+id/Image_View"
+        android:transitionName="reflex"
+        android:layout_width="match_parent"
+        android:layout_height="346dp"
+        android:layout_gravity="fill_horizontal|top|fill_vertical"
+        tools:srcCompat="@drawable/sensorlogo" />
+
+    <ListView
+        android:id="@+id/List_View"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_gravity="bottom"
+        tools:context=".MainActivity">
+    </ListView>
+
+</FrameLayout>

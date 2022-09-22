@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yash_desai.android_sensors">
+
+    <uses-feature
+        android:name="android.hardware.sensor.proximity"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.sensor.accelerometer"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.sensor.gyroscope"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.sensor.magnetometer"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.sensor.light_sensor"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="Android Sensors"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:testOnly="false">
+
+        <activity
+            android:name=".Light_Sensor"
+            android:label="Light Sensor"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Gyroscope"
+            android:label="Gyroscope"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Proximity_Sensor"
+            android:label="Proximity Sensor"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Accelerometer"
+            android:label="Accelerometer"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Magnetometer"
+            android:label="Magnetometer"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name=".Splash_Screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

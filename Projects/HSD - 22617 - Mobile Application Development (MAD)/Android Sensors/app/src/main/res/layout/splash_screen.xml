@@ -1,0 +1,74 @@
+<FrameLayout android:id="@+id/Fraps"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/black"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|top"
+        android:text="Yash Dattatraya Desai"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal|top"
+        android:text="Mobile Application Development"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="43dp"
+        android:layout_gravity="center_horizontal|top"
+        android:text="Micro-Project"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="17dp" />
+
+    <ProgressBar
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="220dp"
+        android:layout_gravity="center_vertical|center_horizontal|center"/>
+
+
+    <ImageView
+        android:id="@+id/Image_View_main"
+        android:transitionName="reflex"
+        android:layout_width="match_parent"
+        android:layout_height="346dp"
+        android:layout_gravity="fill_horizontal|center_vertical|center_horizontal|center"
+        tools:srcCompat="@drawable/sensorlogo" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:layout_gravity="center_horizontal|center_vertical|center"
+        android:text="Android Sensors"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal|center_vertical"
+        android:text=":: Warning ::\n\nThis application has been identified to potentially trigger seziures for people with Photo Sensitive Epilepsy [P.S.E.]"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_light" />
+</FrameLayout>
